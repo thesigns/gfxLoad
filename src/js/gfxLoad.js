@@ -40,7 +40,7 @@ export async function gfxLoad(gfxSource) {
             resolve(img);
         });
 
-    // Create gfx object with corresponging to the gfxSource object.
+    // Create gfx object corresponding to the gfxSource object.
     //
     })).then(result => {
         let gfx = Object.assign({}, gfxSource);
